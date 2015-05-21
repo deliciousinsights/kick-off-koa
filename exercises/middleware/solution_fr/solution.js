@@ -7,7 +7,7 @@ app.use(upperCase());
 
 app.use(function* () {
   // étape 3 : répondre « bonjour koa »
-  this.body = 'hello koa';
+  this.body = 'bonjour koa';
 });
 
 function responseTime() {

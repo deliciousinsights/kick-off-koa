@@ -9,7 +9,7 @@ Lors d’une requête vers `/json`, la réponse devrait être :
 { foo: 'bar' }
 ```
 
-Lors d’une requête vers `/stream`, le serveur derait répondre avec le contenu
+Lors d’une requête vers `/stream`, le serveur devrait répondre avec le contenu
 du fichier dont le chemin sera passé dans `process.argv[3]`.  Utilisez la
 méthode noyau `fs.createReadStream(…)` :
 
@@ -19,7 +19,7 @@ fs.createReadStream(process.argv[3]);
 
 ## Conseils
 
-Jusqu’ici nous n’avions utilisé que des `String`s comme corps de réponses.  Koa
+Jusqu’ici nous n’avions utilisé que des `String`s comme corps de réponses. Koa
 prend en charge les types de corps suivants :
 
 - `String`s
