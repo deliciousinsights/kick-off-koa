@@ -19,7 +19,7 @@ fs.createReadStream(process.argv[3]);
 
 ## Conseils
 
-Jusqu’ici nous n’avions utilisé que des `String`s comme corps de réponses. Koa
+Jusqu’ici nous n’avions utilisé que des `String`s comme corps de réponses.  Koa
 prend en charge les types de corps suivants :
 
 - `String`s
